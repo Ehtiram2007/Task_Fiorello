@@ -19,15 +19,23 @@ nav #navbar .left a .img1 {
   top: 45px;
   left: 80px;
 }
-nav #navbar .right {
+nav #navbar .right ul {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 46.25px 29px;
-  gap: 58px;
-  position: absolute;
-  width: 680.81px;
-  height: 115px;
-  right: 175.86px;
-  top: calc(50% - 57.5px);
+  gap: 20px;
+  padding: 50px;
+}
+nav #navbar .right ul li {
+  list-style: none;
+}
+nav #navbar .right ul li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1.2px;
 }/*# sourceMappingURL=style.css.map */
