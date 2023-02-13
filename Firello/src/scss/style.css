@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav #navbar {
+  position: relative;
+}
+nav #navbar .left a {
+  height: 25px;
+}
+nav #navbar .left a .img1 {
+  width: 270px;
+  height: 25px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  top: 45px;
+  left: 80px;
+}
+nav #navbar .right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 46.25px 29px;
+  gap: 58px;
+  position: absolute;
+  width: 680.81px;
+  height: 115px;
+  right: 175.86px;
+  top: calc(50% - 57.5px);
+}/*# sourceMappingURL=style.css.map */

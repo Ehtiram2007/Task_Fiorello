@@ -1,0 +1,32 @@
+nav{
+    #navbar{
+        position: relative;
+        .left{
+         a{
+            height: 25px;
+            .img1{
+                width: 270px;
+                height: 25px;
+                object-fit: contain;
+                position: absolute;
+                top: 45px;
+                left: 80px;
+            }
+         }
+        }
+        .right{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 46.25px 29px;
+            gap: 58px;
+            
+            position: absolute;
+            width: 680.81px;
+            height: 115px;
+            right: 175.86px;
+            top: calc(50% - 115px/2);
+            
+        }
+    }
+}
