@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nabla&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rye&family=Teko:wght@300;400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,6 +26,47 @@ nav #nav_item .navbar .img_item .a1 .img1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+#banner .swiper-slide .img2 {
+  position: absolute;
+}
+#banner .swiper-slide h2 {
+  position: absolute;
+  width: 312.25px;
+  height: 105px;
+  left: 206px;
+  top: 86px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 51px;
+}
+#banner .swiper-slide h2 span {
+  color: red;
+}
+#banner .swiper-slide p {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  position: absolute;
+  width: 400.34px;
+  height: 80px;
+  left: 206px;
+  top: 213px;
+  color: #6d6a6a;
+}
+#banner .swiper-slide .img3 {
+  width: 360px;
+  height: 100px;
+  position: absolute;
+  left: 206px;
+  right: 1109px;
+  top: 323px;
+  bottom: 98px;
 }
 #banner .swiper-slide img {
   display: block;
