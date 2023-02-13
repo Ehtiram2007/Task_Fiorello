@@ -5,9 +5,6 @@
   margin: 0;
 }
 
-nav {
-  position: relative;
-}
 nav #nav_item .navbar .img_item .a1 .img1 {
   width: 200px;
   height: 50px;
@@ -79,6 +76,7 @@ nav #nav_item .navbar .img_item .a1 .img1 {
 #banner2 ul {
   display: flex;
   gap: 20px;
+  padding-top: 50px;
 }
 #banner2 ul li {
   list-style: none;
@@ -91,4 +89,12 @@ nav #nav_item .navbar .img_item .a1 .img1 {
 #banner2 ul li a:hover {
   transition: 0.4s ease-in-out;
   color: red;
+}
+#banner2 .banner2_cards .img4 {
+  height: 100%;
+  width: 100%;
+}
+#banner2 .banner2_cards .img4:hover {
+  transform: scale(1.2);
+  transition: 4s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

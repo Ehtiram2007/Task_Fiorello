@@ -66,6 +66,7 @@ bottom: 98px;
   ul{
     display: flex;
     gap: 20px;
+    padding-top: 50px;
     li{
       list-style: none;
       text-transform: uppercase;
@@ -78,6 +79,16 @@ bottom: 98px;
          transition:.4s ease-in-out;
         color: red;
       }
+    }
+  }
+  .banner2_cards{
+    .img4{
+      height: 100%;
+      width: 100%;
+    }
+    .img4:hover{
+      transform: scale(1.2);
+      transition: 4s ease-in-out;
     }
   }
 }
