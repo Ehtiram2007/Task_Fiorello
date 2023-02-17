@@ -3,13 +3,58 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  outline: none;
 }
 
-nav #nav_item .navbar .img_item .a1 .img1 {
-  width: 200px;
-  height: 50px;
+nav #navbar {
+  position: relative;
+}
+nav #navbar .left a {
+  height: 25px;
+}
+nav #navbar .left a .img1 {
+  width: 270px;
+  height: 25px;
   -o-object-fit: contain;
      object-fit: contain;
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  z-index: 999;
+}
+nav #navbar .right ul {
+  display: flex;
+  gap: 20px;
+  padding: 45px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  nav #navbar .right ul {
+    display: none;
+  }
+}
+nav #navbar .right ul .li1 {
+  text-decoration: underline;
+}
+nav #navbar .right ul li {
+  list-style: none;
+}
+nav #navbar .right ul li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 28px;
+  color: #6d6a6a;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+nav #navbar .right ul i {
+  cursor: pointer;
 }
 
 #banner .swiper {
@@ -73,28 +118,368 @@ nav #nav_item .navbar .img_item .a1 .img1 {
      object-fit: cover;
 }
 
+#banner2 {
+  font-family: "Montserrat", sans-serif;
+}
 #banner2 ul {
   display: flex;
   gap: 20px;
   padding-top: 50px;
 }
-#banner2 ul li {
+@media (max-width: 768px) {
+  #banner2 ul {
+    display: none;
+  }
+}
+#banner2 ul .l1 {
+  list-style: none;
+}
+#banner2 ul .l1 a {
+  text-decoration: none;
+  color: red;
+}
+#banner2 ul .l2 {
   list-style: none;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
 }
-#banner2 ul li a {
+#banner2 ul .l2 a {
   text-decoration: none;
   color: #1b1b1b;
 }
-#banner2 ul li a:hover {
+#banner2 ul .l2 a:hover {
   transition: 0.4s ease-in-out;
   color: red;
 }
-#banner2 .banner2_cards .img4 {
+#banner2 ul p {
+  position: absolute;
+  right: 70px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #1b1b1b;
+}
+#banner2 .banner2_cards .banner2_cards_items {
+  text-transform: uppercase;
+}
+#banner2 .banner2_cards .banner2_cards_items .img4 {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+#banner2 .banner2_cards .banner2_cards_items .img4:hover {
+  transform: scale(1.02);
+}
+#banner2 .banner2_cards .banner2_cards_items .p1 {
+  text-align: center;
+  padding-top: 20px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+#banner2 .banner2_cards .banner2_cards_items .p2 {
+  text-align: center;
+  cursor: pointer;
+  color: #afafaf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+#banner2 .banner2_cards .banner2_cards_items .p2:hover {
+  transition: 0.4s ease-in-out;
+  color: red;
+}
+
+#banner3 {
+  padding-top: 5rem;
+}
+#banner3 .video_item iframe {
+  width: 100%;
+  height: 416px;
+}
+#banner3 .card_word .word .word2 {
+  display: flex;
+}
+#banner3 .card_word .word .word2 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 20px;
+  height: 30px;
+}
+
+#banner4 {
+  display: flex;
+}
+#banner4 h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding-top: 5rem;
+}
+#banner4 .p3 {
+  text-align: center;
+  color: #6d6a6a;
+  padding-top: 20px;
+  font-family: "Lora", serif;
+}
+#banner4 .p4 {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 15px;
+}
+#banner4 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 300px;
+  height: 200px;
+}
+#banner4 .p5 {
+  padding-top: -30px;
+  text-align: center;
+  color: #6d6a6a;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#banner5 .div1 {
+  -o-object-position: top;
+     object-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#banner5 .div1 p {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  line-height: 42px;
+}
+#banner5 .div1 .input_item input {
+  width: 370px;
+  height: 60px;
+}
+#banner5 .div1 .input_item button {
+  background-color: #f34f3f;
+  width: 160px;
+  height: 60px;
+  border: none;
+  color: #ffffff;
+}
+
+#banner6 {
+  color: #6d6a6a;
+}
+#banner6 .cards_item h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  color: #2b2b2b;
+  padding-top: 4rem;
+}
+#banner6 .cards_item p {
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 17px;
+  color: #6d6a6a;
+}
+#banner6 .banner6_card {
+  overflow: hidden;
+}
+#banner6 .banner6_card img {
+  width: 100%;
+  transition: 0.4s ease-in-out;
+}
+#banner6 .banner6_card img:hover {
+  transform: scale(1.07);
+}
+#banner6 h3 {
+  padding-top: 2rem;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: #2b2b2b;
+  text-align: center;
+}
+#banner6 p {
+  font-family: "Lora", serif;
+  font-size: 15px;
+  color: #6d6a6a;
+  text-align: center;
+}
+
+#banner7 html,
+#banner7 body {
+  position: relative;
   height: 100%;
+}
+#banner7 html body,
+#banner7 body body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#banner7 html body .swiper,
+#banner7 body body .swiper {
+  width: 100%;
+  height: 100%;
+}
+#banner7 html body .swiper .swiper-slide,
+#banner7 body body .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner7 html body .swiper .swiper-slide .swiper-slide img,
+#banner7 body body .swiper .swiper-slide .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#banner7 .swiper .swiper-wrapper .swiper-slide img {
+  display: block;
+  margin: auto;
+  width: 80px;
+}
+#banner7 .swiper .swiper-wrapper .swiper-slide p {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  text-align: center;
+  color: #4b4747;
+}
+#banner7 .swiper .swiper-wrapper .swiper-slide .p1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: #1b1b1b;
+  text-transform: uppercase;
+}
+#banner7 .swiper .swiper-wrapper .swiper-slide .p2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #afafaf;
+}
+
+footer {
+  padding-top: 5rem;
+  background-color: #fefaf3;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: #000000;
+}
+footer .p1 {
+  font-family: "Montserrat", sans-serif;
+  color: #8b8b8b;
+  transition: 0.4s ease-in-out;
+  font-size: 12px;
+  margin: 10px;
+}
+footer .p1:hover {
+  color: red;
+}
+
+#banner8 .div2 {
+  -o-object-position: top;
+     object-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#banner9 h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding-top: 20px;
+}
+#banner9 p {
+  text-align: center;
+  color: #6d6a6a;
+  padding-top: 20px;
+  font-family: "Lora", serif;
+}
+#banner9 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 200px;
+}
+
+#banner12 img {
+  display: block;
+  margin: auto;
+}
+#banner12 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+#banner12 h2 span {
+  color: red;
+}
+#banner12 p {
+  font-family: "Lora", serif;
+  font-size: 17px;
+  text-align: center;
+}
+#banner12 input {
+  display: flex;
+  margin: 0 0 15px;
+  padding: 19px 18px;
+  width: 100%;
+  border-color: #e8e8e8;
+}
+#banner12 button {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 200px;
+  height: 60px;
+}
+
+#banner13 {
+  background-color: rgba(109, 106, 106, 0.1960784314);
+}
+#banner13 h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+  padding: 40px;
+}
+
+.img5 {
   width: 100%;
 }
-#banner2 .banner2_cards .img4:hover {
-  transform: scale(1.2);
-  transition: 4s ease-in-out;
+
+.btn1 {
+  padding: 70px 0 80px 0;
+}
+.btn1 .bt1 {
+  width: 200px;
+  height: 80px;
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: red;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
