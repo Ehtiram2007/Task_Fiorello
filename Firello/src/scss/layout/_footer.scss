@@ -1,0 +1,20 @@
+footer{
+    padding-top: 5rem ;
+    background-color: #fefaf3;
+    p{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      text-align: left;
+      color: #000000;
+    }
+    .p1{
+      font-family: 'Montserrat', sans-serif;
+      color: #8b8b8b;
+      transition: .4s ease-in-out;
+      font-size: 12px;
+      margin: 10px;
+    }
+    .p1:hover{
+      color: red;
+    }
+  }
